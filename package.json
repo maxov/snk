@@ -1,6 +1,6 @@
 {
   "name": "snk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sneak a peek at your markdown.",
   "main": "index.js",
   "preferGlobal": true,
