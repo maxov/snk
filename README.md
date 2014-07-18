@@ -31,7 +31,7 @@ By default, snk opens your file in the browser automatically.
 If you wish to not do this, add the `n`/`nopen` flag:
 
 ```
-$ snk myfile.md -o
+$ snk myfile.md -n
 ```
 
 ## Profiles

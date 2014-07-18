@@ -12,6 +12,7 @@ body {
 
 .output {
     border: 1px solid #ddd;
+    border-radius: 3px;
     padding: 30px;
 }
 
