@@ -1,0 +1,33 @@
+body {
+    background: #f4f4f2;
+    border-top: solid 6px #cc3d33;
+    font: 14px Lucida Grande, sans-serif;
+}
+
+.container {
+    margin: 40px auto 0 auto;
+    width: 718px;
+    background: #fff;
+    padding: 16px;
+    color: #666;
+    line-height: 150%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+}
+
+pre {
+    font-family: Monaco, monospace;
+    background-color: #f9f9f8;
+    padding: 16px;
+    white-space: pre-wrap;
+}
+
+p, pre {
+    margin: 1em 0;
+}
+
+blockquote {
+    margin: 1em 40px;
+}

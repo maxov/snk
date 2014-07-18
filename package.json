@@ -1,0 +1,41 @@
+{
+  "name": "mdp",
+  "version": "0.0.0",
+  "description": "Awesome, easy markdown preview.",
+  "main": "index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mdp": "./bin/mdp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gratimax/mdp"
+  },
+  "keywords": [
+    "markdown",
+    "preview",
+    "livereload",
+    "markdown-preview"
+  ],
+  "author": "Max Ovsiankin <max@ovsankin.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gratimax/mdp/issues"
+  },
+  "dependencies": {
+    "commander": "~2.3.0",
+    "express": "~4.6.1",
+    "tiny-lr": "0.0.9",
+    "open": "0.0.5",
+    "bluebird": "~2.2.2",
+    "marked": "~0.3.2",
+    "highlight.js": "~8.1.0",
+    "mustache": "~0.8.2",
+    "hogan.js": "~3.0.2",
+    "gaze": "~0.6.4",
+    "chokidar": "~0.8.2"
+  }
+}
