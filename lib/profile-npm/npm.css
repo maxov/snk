@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    margin: 40px auto 0 auto;
+    margin: 40px auto 40px auto;
     width: 718px;
     background: #fff;
     padding: 16px;
@@ -30,4 +30,9 @@ p, pre {
 
 blockquote {
     margin: 1em 40px;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: #cc3d33;
 }
