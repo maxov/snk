@@ -50,11 +50,25 @@ p {
     margin: 15px 0;
 }
 
-code, pre {
+pre code, pre {
     font-size: 13px !important;
     line-height: 19px !important;
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
-    height: auto;
+}
+
+code {
+    font-size: 12px !important;
+    margin: 0;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0 4px;
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
+}
+
+pre code {
+    border-radius: 0;
+    border: none;
 }
 
 a {
