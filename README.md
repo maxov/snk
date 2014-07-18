@@ -58,5 +58,5 @@ $ mdp myfile.md -p npm
 ```
 
 I know that the profiles don't look perfect. 
-Please add issues and pull requests on specific things that I should fish
+Please add issues and pull requests on specific things that I should fix.
 If you want me to add another profile, send a pull request or an issue.
