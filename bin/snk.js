@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var mdp = require('../');
+var preview = require('../');
 var version = require('../package.json').version;
 var commander = require('commander');
 var open = require('open');
@@ -13,15 +13,13 @@ commander
   .option('-p, --profile [profile]', 'use a profile (gh|npm) [gh]')
   .parse(process.argv);
 
-//mdp('C:\\Users\\Max\\projects\\mdp\\README.md');
-
 var args = commander.args;
 
 if(args.length == 1) {
   var file = path.resolve(args[0]);
   var stat = fs.statSync(file);
   if(stat.isFile()) {
-    mdp(file, commander.profile).then(function (port) {
+    preview(file, commander.profile).then(function (port) {
       if(!commander.nopen) {
         open('http://localhost:' + port + '/')
       }
