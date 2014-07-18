@@ -2,7 +2,6 @@ var express = require('express');
 var fs = require('fs');
 var tinylr = require('tiny-lr');
 var path = require('path');
-var gaze = require('gaze');
 var chokidar = require('chokidar');
 var Promise = require('bluebird');
 
