@@ -8,6 +8,8 @@ Well now you can!
 
 This readme was previewed using snk, so you know it works. :)
 
+![Preview](http://i.imgur.com/O4pzMH3.png)
+
 ## Install
 ```
 $ npm install snk -g

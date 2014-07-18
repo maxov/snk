@@ -17,6 +17,16 @@ h1, h2, h3, h4, h5, h6 {
     color: #000;
 }
 
+h1 {
+    font-size: 24px;
+    margin: 0.67em 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+
 pre {
     font-family: Monaco, monospace;
     background-color: #f9f9f8;
@@ -35,4 +45,8 @@ blockquote {
 a:link, a:visited, a:active {
     text-decoration: none;
     color: #cc3d33;
+}
+
+img {
+    width: 100%;
 }
