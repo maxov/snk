@@ -91,20 +91,6 @@ module.exports = function (file, profileName) {
         });
       });
     });
-    /*gaze(file, function (err, watcher) {
-
-      this.on('all', function (event, filepath) {
-        compile(function () {
-          console.log(filepath + ' changed');
-          lr.changed({
-            body: {
-              files: [filepath]
-            }
-          })
-        })
-      });
-
-    });*/
 
     app.listen(app_port, function () {
       console.log('server listening on port ' + app_port);
