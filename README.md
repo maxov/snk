@@ -17,7 +17,7 @@ $ npm install snk -g
 
 ## Usage
 
-It's really simple to get started with snk. 
+It's really simple to get started with snk.
 Assuming that you have it installed(see [Install](#install)),
 all you have to do to run a file is enter a directory and run the command
 with the filename:
@@ -43,7 +43,7 @@ This means that you can preview your file confident of how it'll look
 on whatever website.
 Right now, there's two different profiles:
 
-1. __gh__: looks as if the markdown file was on github. 
+1. __gh__: looks as if the markdown file was on github.
 This is the default profile.
 2. __npm__: looks as if the markdown file was on npm.
 
@@ -53,6 +53,6 @@ Selecting a profile just requires adding it as an argument to the `-p` flag:
 $ snk myfile.md -p npm
 ```
 
-I know that the profiles don't look perfect. 
+I know that the profiles don't look perfect.
 Please add issues and pull requests on specific things that I should fix.
 If you want me to add another profile, send a pull request or an issue.
