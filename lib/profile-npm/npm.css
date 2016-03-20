@@ -46,3 +46,7 @@ a:link, a:visited, a:active {
     text-decoration: none;
     color: #cc3d33;
 }
+
+img {
+  max-width: 100%;
+}
